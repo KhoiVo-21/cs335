@@ -8,4 +8,15 @@ git commmit -m "initial google class download"
 git status
 git push --all
 	voanhkhoi21@yahoo.com.sg
-  
+git checkout -b class  
+cd google-python-exercises/
+python hello.py
+python hello.py
+cd ..
+git status
+git add .
+git commit -m 'modified hello.py'
+git push --all
+	voanhkhoi21@yahoo.com.sg
+git checkout master
+git checkout class
