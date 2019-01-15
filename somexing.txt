@@ -1,0 +1,11 @@
+git clone https://github.com/NobitaD/cs335.git
+cd 335
+wget https://developers.google.com/edu/python/google-python-exercises.zip
+unzip google-python-exercises.zip
+rm google-python-exercises.zip
+git add .status
+git commmit -m "initial google class download"
+git status
+git push --all
+	voanhkhoi21@yahoo.com.sg
+  
