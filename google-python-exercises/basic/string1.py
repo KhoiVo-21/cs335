@@ -24,10 +24,16 @@
 # So donuts(5) returns 'Number of donuts: 5'
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
+<<<<<<< HEAD
   if count < 10:
     return 'Number of donuts: %d' % (count)
   else:
     return 'Number of donuts: many' 
+=======
+  # +++your code here+++
+  return
+
+>>>>>>> origin
 
 # B. both_ends
 # Given a string s, return a string made of the first 2
@@ -35,7 +41,11 @@ def donuts(count):
 # so 'spring' yields 'spng'. However, if the string length
 # is less than 2, return instead the empty string.
 def both_ends(s):
+<<<<<<< HEAD
   #
+=======
+  # +++your code here+++
+>>>>>>> origin
   return
 
 

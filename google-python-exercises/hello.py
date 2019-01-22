@@ -25,7 +25,11 @@ def main():
   if len(sys.argv) >= 2:
     name = sys.argv[1]
   else:
+<<<<<<< HEAD
     name = 'World Nobs'
+=======
+    name = 'World'
+>>>>>>> origin
   print 'Hello', name
 
 # This is the standard boilerplate that calls the main() function.
