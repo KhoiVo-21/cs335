@@ -42,7 +42,10 @@ def extract_names(filename):
     ['2006', 'Aaliyah 91', Aaron 57', 'Abagail 895', ' ...]
     """
     # +++your code here+++
-    return
+    f = open(filename, "rU")
+    for line in f:
+        print line
+
 
 
 def main():
@@ -61,6 +64,7 @@ def main():
         summary = True
         del args[0]
 
+    extract_names(sys.argv[1])
     # +++your code here+++
     # For each filename, get the names, then either print the text output
     # or write it to a summary file
