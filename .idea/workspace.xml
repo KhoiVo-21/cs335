@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d82d27c-936f-4fa5-929f-dab3d0ec7b31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-python-exercises/babynames/babynames.py" beforeDir="false" afterPath="$PROJECT_DIR$/google-python-exercises/babynames/babynames.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-python-exercises/babynames/solution/babynames.py" beforeDir="false" afterPath="$PROJECT_DIR$/google-python-exercises/babynames/solution/babynames.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-python-exercises/basic/wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/google-python-exercises/basic/wordcount.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/google-python-exercises/basic/wordcount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="82" column="3" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -60,7 +57,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,6 +79,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,9 +128,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15699404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15699404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -144,7 +140,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.41321045" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.41321045" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -321,13 +317,6 @@
     <entry file="file://$PROJECT_DIR$/google-python-exercises/basic/small.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/google-python-exercises/basic/list1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/google-python-exercises/basic/list2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -335,10 +324,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/google-python-exercises/basic/list1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/google-python-exercises/basic/wordcount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="82" column="3" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
         </state>
       </provider>
     </entry>
