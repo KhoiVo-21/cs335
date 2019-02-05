@@ -45,31 +45,31 @@ import string
 # and builds and returns a word/count dict for it.
 # Then print_words() and print_top() can just call the utility function.
 
-def diction(filename):
+def build_dictionary(filename):
     f = open(filename, "rU")
     dictionary = {}
-
     for line in f:
+        line = line.translate(None,'\'\\,.?!";:()_@[]{}#%^$*<>~/')
         words = line.split()
         for word in words:
-            low = word.lower()
-            if low not in dictionary:
-                dictionary[low] = 1
+            w = word.lower()
+            if w not in dictionary:
+                dictionary[w] = 1
             else:
-                dictionary[low] += 1
+                dictionary[w] += 1
     f.close()
     return dictionary
 
 
 def print_words(filename):
-    dictionary = diction(filename)
+    dictionary = build_dictionary(filename)
     items = sorted(dictionary.keys())
     for item in items:
         print item, "=", dictionary[item]
 
 
 def print_top(filename):
-    dictionary = diction(filename)
+    dictionary = build_dictionary(filename)
     items = sorted(dictionary.items(), key=get_count)
     items.reverse()
     for item in items[:20]:
