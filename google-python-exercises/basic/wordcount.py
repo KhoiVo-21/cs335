@@ -40,6 +40,7 @@ print_words() and print_top().
 import sys
 import string
 
+
 # Define print_words(filename) and print_top(filename) functions.
 # You could write a helper utility function that reads a file
 # and builds and returns a word/count dict for it.
