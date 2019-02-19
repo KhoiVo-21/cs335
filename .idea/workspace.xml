@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d82d27c-936f-4fa5-929f-dab3d0ec7b31" name="Default Changelist" comment="" />
+    <list default="true" id="3d82d27c-936f-4fa5-929f-dab3d0ec7b31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-python-exercises/babynames/babynames.py" beforeDir="false" afterPath="$PROJECT_DIR$/google-python-exercises/babynames/babynames.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-python-exercises/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/google-python-exercises/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +16,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/google-python-exercises/basic/wordcount.py">
+        <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/babynames.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+            <state relative-caret-position="17">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
               <folding>
-                <element signature="e#1321#1331#0" expanded="true" />
+                <element signature="e#227#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/solution/babynames.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-46">
+              <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+              <folding>
+                <element signature="e#227#237#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -27,6 +44,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>nums</find>
+      <find>elvin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -42,8 +60,10 @@
         <option value="$PROJECT_DIR$/google-python-exercises/basic/list1.py" />
         <option value="$PROJECT_DIR$/google-python-exercises/basic/list2.py" />
         <option value="$PROJECT_DIR$/google-python-exercises/babynames/solution/babynames.py" />
-        <option value="$PROJECT_DIR$/google-python-exercises/babynames/babynames.py" />
         <option value="$PROJECT_DIR$/google-python-exercises/basic/wordcount.py" />
+        <option value="$PROJECT_DIR$/google-python-exercises/babynames/crash.py" />
+        <option value="$PROJECT_DIR$/oop.py" />
+        <option value="$PROJECT_DIR$/google-python-exercises/babynames/babynames.py" />
       </list>
     </option>
   </component>
@@ -58,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,18 +95,24 @@
               <item name="cs335" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs335" type="462c0819:PsiDirectoryNode" />
               <item name="google-python-exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="babynames" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs335" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs335" type="462c0819:PsiDirectoryNode" />
+              <item name="google-python-exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="babynames" type="462c0819:PsiDirectoryNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -129,6 +156,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15699404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -141,7 +169,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.41321045" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33026114" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -273,31 +301,6 @@
         <state relative-caret-position="-595" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/baby1990.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/babynames.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <element signature="e#227#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/solution/babynames.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding>
-            <element signature="e#227#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/google-python-exercises/basic/alice.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -334,7 +337,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/google-python-exercises/basic/wordcount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="25">
           <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
           <folding>
             <element signature="e#1321#1331#0" expanded="true" />
@@ -342,5 +345,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/crash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objectorient/obj_baby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/baby2000.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/baby1990.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="335" column="40" selection-start-line="335" selection-start-column="35" selection-end-line="335" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/solution/babynames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+          <folding>
+            <element signature="e#227#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google-python-exercises/babynames/babynames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="e#227#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
