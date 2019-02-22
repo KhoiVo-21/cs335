@@ -49,7 +49,7 @@ if __name__ == "__main__":
     main()
         
         
-# wget("https://www.babycentre.co.uk/popular-baby-names")
+wget("https://www.babycentre.co.uk/popular-baby-names")
 
 
 # def something():
