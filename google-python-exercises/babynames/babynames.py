@@ -45,7 +45,7 @@ def extract_names(filename):
     names = []
     str = f.read()
     match = re.search(r'Popularity\sin\s(\d\d\d\d)', str)
-    print match.group(1)
+    print(match.group(1))
     tuples = re.findall(r'<td>(\d+)</td><td>(\w+)</td><td>(\w+)</td>', str)
     name_rank = {}
 
@@ -60,7 +60,7 @@ def extract_names(filename):
     for name in sorted_rank:
         names.append(name + " " + name_rank[name])
     for name in names:
-        print name
+        print(name)
 
 
 def main():
@@ -70,7 +70,7 @@ def main():
     args = sys.argv[1:]
 
     if not args:
-        print 'usage: [--summaryfile] file [file ...]'
+        print('usage: [--summaryfile] file [file ...]')
         sys.exit(1)
 
     # Notice the summary flag and remove it from args if it is present.
