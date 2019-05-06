@@ -14,17 +14,33 @@ def index(request):
 
 
 def detail(request, poll_id):
-    return HttpResponse("You're looking at poll %s." % poll_id)
+    t = loader.get_template('polls/detail.html')
+    # return HttpResponse("You're looking at poll %s." % poll_id)
+    c = {
+        'poll_id': poll_id,
+    }
+    return HttpResponse(t.render(c))
 
 
 def results(request, poll_id):
-    return HttpResponse("results of poll %s." % poll_id)
+    t = loader.get_template('polls/results.html')
+    # return HttpResponse("results of poll %s." % poll_id)
+    c = {
+        'poll_id': poll_id,
+    }
+    return HttpResponse(t.render(c))
 
 
 def vote(request, poll_id):
-    return HttpResponse("You're voting on poll %s." % poll_id)
+    t = loader.get_template('polls/vote.html')
+    # return HttpResponse("You're voting on poll %s." % poll_id)
+    c = {
+        'poll_id': poll_id,
+    }
+    return HttpResponse(t.render(c))
 
 
+# example code
 def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)

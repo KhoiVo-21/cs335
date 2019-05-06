@@ -35,4 +35,5 @@ urlpatterns = [
     re_path(r'^polls/(?P<poll_id>\d+)/$', polls_views.detail),
     re_path(r'^polls/(?P<poll_id>\d+)/results/$', polls_views.results),
     re_path(r'^polls/(?P<poll_id>\d+)/votes/$', polls_views.vote),
+    re_path(r'^contact/', polls_views.contact),
 ]
